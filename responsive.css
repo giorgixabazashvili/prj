@@ -1,0 +1,213 @@
+@media (max-width: 1024px) {
+    .header .p-1, .header .p-2 {
+        gap: 1rem;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+       
+    }
+   
+ 
+   
+ 
+
+    .Welcome h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .layout {
+        margin: 3rem 6rem;
+    }
+
+    .cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Responsive Styles for Mobile Phones */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .header .p-1, .header .p-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+   
+    .image{
+    
+        height: 33rem;
+        position: relative;
+       width: 52rem;
+        background-position: 50%;
+    }
+    .text-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+        
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+
+    .header h4 {
+        padding-left: 0;
+    }
+
+    .Welcome h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-0 {
+        font-size: 1rem;
+        padding: 10px 15px;
+        width: auto;
+    }
+
+    /* .layout {
+        width: 100%;
+    } */
+
+
+    .text-1, .image-1 {
+        width: 100%;
+    }
+    .text-1{
+        margin-top: 4rem;
+
+        p{
+            width: 18rem;
+            height: 15rem;
+        }
+       
+    }
+    .image-1{
+        margin-left: 1rem;
+    }
+
+    .image-1 {
+        height: auto;
+    }
+
+    .cards-parent {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 23rem;
+        margin-left: 12rem;
+        /* margin-top: 2rem; */
+    
+
+    }
+
+    .card {
+        width: 100%;
+        margin-top: -2rem;
+        padding-top: 2rem;
+    }
+    .color-div{
+       /* padding: 0.5rem 4rem 0.5rem 0.9rem; */
+      padding-left: 3.6rem;
+        padding-top: 0%;
+       /* height: 9rem;
+       width: 10rem; */
+
+    }
+
+    footer .select-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        
+    }
+    footer{
+        margin-top: 20rem;
+        height: 20rem;
+        width: 52rem;
+        h4{
+            margin-top: -2rem;
+        }
+        .pr{
+            color: white;
+            margin-left: 33rem;
+        }
+        .all{
+            color: white;
+           margin-left: -16rem;
+           
+            
+           
+
+        }
+      
+        
+
+      
+    }
+   
+    .cmb {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .icons-2 {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .icons-parent {
+       
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .header h4 {
+        font-size: 1.2rem;
+    }
+
+    .Welcome h1 {
+        font-size: 1.2rem;
+    }
+
+    .layout {
+        margin: 1rem;
+    }
+
+    .cards-parent {
+        gap: 1rem;
+    }
+
+    .btn-0, .btn-1, .btn-2, .btn-3 {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        width: 80%;
+    }
+
+    footer .icons-2 {
+        gap: 10px;
+    }
+}
+
+
